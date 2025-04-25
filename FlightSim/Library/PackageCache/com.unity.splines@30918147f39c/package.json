@@ -1,0 +1,41 @@
+{
+  "name": "com.unity.splines",
+  "displayName": "Splines",
+  "version": "2.8.0",
+  "unity": "2022.3",
+  "description": "Work with curves and paths. Use the Splines package to generate objects and behaviors along paths, create trajectories, and draw shapes.",
+  "dependencies": {
+    "com.unity.settings-manager": "1.0.3",
+    "com.unity.mathematics": "1.2.1",
+    "com.unity.modules.imgui": "1.0.0"
+  },
+  "samples": [
+    {
+      "displayName": "Spline Examples (requires Shader Graph package)",
+      "description": "Example code and scenes files showing how to use Splines.",
+      "path": "Samples~/SplineExamples"
+    }
+  ],
+  "keywords": [
+    "spline",
+    "curve",
+    "path"
+  ],
+  "category": "Tool",
+  "relatedPackages": {
+    "com.unity.splines.tests": "2.8.0"
+  },
+  "_upm": {
+    "changelog": "### Bug Fixes\n- [SPLB-322] Fixed a bug where `SplineExtrude` wouldn't update when multiple splines where modified.\n- [SPLB-323] Fixed a bug where splines displayed in the Scene view would not match serialization changes.\n- [SPLB-324] Re-added a dependency to the IMGUI module that was removed along with the UGUI package.\n- [SPLB-332] Fixed a bug where `Element Inspector` fields get pushed and squashed.\n- [SPLB-329] Fixed a bug where `SplineExtrude` could affect the mesh of other `SplineExtrude`.\n- [SPLB-336] Fixed a bug where `SplineExtrude` would break with a range value of 0.\n- [SPLB-333] Fixed a bug where `Create Spline` tool would sometimes throw an exception when the Esc or Enter keys were pressed.\n\n### Added\n- [SPLB-329] Added the ability to target a mesh in the library with a `SplineExtrude` component"
+  },
+  "upmCi": {
+    "footprint": "b080b635cfbb153274586a2be3c319cc33d068b5"
+  },
+  "documentationUrl": "https://docs.unity3d.com/Packages/com.unity.splines@2.8/manual/index.html",
+  "repository": {
+    "url": "https://github.cds.internal.unity3d.com/unity/com.unity.splines.git",
+    "type": "git",
+    "revision": "62fda6a9f01314d27d0dfc41f6fc0bbd13e1c300"
+  },
+  "_fingerprint": "30918147f39c617439e1a955017afede0429d1bd"
+}
